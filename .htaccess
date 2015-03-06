@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /~pedrofmj/projects/Eclipse/egypteam/ana/ci2d2
+RewriteBase /~pedrofmj/projects/Eclipse/pedro/aulas/ci2d2
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
