@@ -1,0 +1,86 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+
+input, select {
+	font-family: Arial;
+	font-size: 8pt;
+	/*color: #045BAA; 
+	border: solid 1px #045BAA;*/
+}
+
+input[type=file] {
+	font-family: Arial;
+	font-size: 8pt;
+	/*color: #045BAA; 
+	border: none;*/
+}
+
+
+#header {
+	position: fixed;
+	width: 100%;
+	height: 208px;
+	position: fixed;
+	border: solid 1px #000000;
+	z-index: 200;
+}
+
+#header1 {
+	background: #045BAA;
+	width: 100%;
+	height: 80px;
+}
+
+#header2 {
+	background: #EFEFFF;
+	width: 100%;
+	height: 128px;
+	position: relative;
+}
+
+#menu {
+	color: #FFFFFF;
+	display: inline-block;
+	vertical-align: middle; 
+	height: 100%;
+	float: right;
+}
+
+#before {
+	display: inline-block; height: 100%; width: 10px; vertical-align: middle;
+}
+
+#menucontainer {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.menuitem {
+	text-align: center;
+	padding: 10px;
+	float: left;
+	cursor: pointer;
+}
+
+.roomagenda thead td {
+	border: solid 1px #000000;
+	background: #DDDDDD;
+	font-weight: bold;
+}
+
+.roomagenda tbody td {
+	border: solid 1px #000000;
+	background: #FFFFFF;
+}
+
+.header {
+	text-align: center;
+	font-weight: bold;
+}
